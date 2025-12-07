@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomía Italiana</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #faf6f1;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1521389508051-d7ffb5dc8e8d') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 0 10px black;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      background: rgba(0,0,0,0.4);
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #b53126;
+    }
+
+    .grid {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px;
+      color: #a12d22;
+    }
+
+    .card p {
+      margin: 0 15px 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #b53126;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Gastronomía Italiana</h1>
+</header>
+
+<section>
+  <h2>Una Tradición de Sabores</h2>
+  <p style="text-align:center; font-size:1.2rem; max-width:800px; margin:auto;">
+    La cocina italiana es reconocida mundialmente por su sencillez, ingredientes frescos y platos llenos
+    de tradición. Desde el norte montañoso hasta las cálidas costas del sur, cada región aporta su toque
+    distintivo a uno de los patrimonios culinarios más ricos del planeta.
+  </p>
+</section>
+
+<section>
+  <h2>Platos Emblemáticos</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603898037225-2c7bb5c466c5" alt="Pasta">
+      <h3>Pasta Tradicional</h3>
+      <p>El alma de Italia: fresca, artesanal y siempre acompañada de salsas emblemáticas como la
+      carbonara, pesto o bolognese.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1548365328-8b849e4d3b5f" alt="Pizza">
+      <h3>Pizza Napolitana</h3>
+      <p>Masa suave, borde aireado y pocos ingredientes. La margherita es un símbolo de la bandera italiana.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1516685018646-549d8f4b7777" alt="Risotto">
+      <h3>Risotto del Norte</h3>
+      <p>Cremoso, delicado y sofisticado. Uno de los grandes orgullos de la región de Lombardía.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1613470207422-7a0146eee475" alt="Gelato">
+      <h3>Gelato Artesanal</h3>
+      <p>Más denso y sabroso que el helado tradicional. Un símbolo dulce de la gastronomía italiana.</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Ingredientes Clave</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521389508051-d7ffb5dc8e8d" alt="Tomate">
+      <h3>Tomate</h3>
+      <p>Base fundamental en salsas, ensaladas, sopas y un sinfín de platos icónicos.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Albahaca">
+      <h3>Albahaca</h3>
+      <p>El aroma de Italia. Protagonista en el pesto genovés y en innumerables recetas tradicionales.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1580910051074-7c0f3c8382df" alt="Mozzarella">
+      <h3>Mozzarella</h3>
+      <p>Queso fresco y suave, indispensable en pizzas y ensaladas como la famosa Caprese.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  ©️ 2025 Gastronomía Italiana — Página creada con IA
+</footer>
+
+</body>
+</html>
